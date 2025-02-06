@@ -1,0 +1,8 @@
+// 修复Widgets样式问题
+// @import "@/cesium/widgets/Source/widgets.css";
+// @import "@/cesium/engine/Source/Widget/CesiumWidget/CesiumWidget.css";
+
+.cesium-viewer {
+  font-family: sans-serif;
+  // 其他自定义样式...
+}

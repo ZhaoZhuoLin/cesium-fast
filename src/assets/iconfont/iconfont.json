@@ -1,0 +1,43 @@
+{
+  "id": "4820745",
+  "name": "cesium-meteo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [{
+      "icon_id": "162882",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3278362",
+      "name": "放大",
+      "font_class": "fangda",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "12359510",
+      "name": "查询",
+      "font_class": "chaxun",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "33881240",
+      "name": "缩小",
+      "font_class": "suoxiao",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "14401714",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    }
+  ]
+}

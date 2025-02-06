@@ -1,12 +1,51 @@
 {
-  "name": "cesium-fast",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "awm-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "GT-人影数据中台管理系统",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite ",
+    "dev:prod": "vite --mode production",
+    "build": "vite build --mode development",
+    "build:dev": "vue-tsc && vite build",
+    "build:prod": "vite build --mode production",
+    "preview": "vite preview",
+    "treer": "treer -e treer.txt -d ./src -i .git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@types/nprogress": "^0.2.3",
+    "@vueuse/core": "^10.9.0",
+    "awm-server": "file:",
+    "axios": "^1.6.3",
+    "element-plus": "^2.6.1",
+    "exceljs": "^4.4.0",
+    "leaflet": "^1.9.4",
+    "mitt": "^3.0.1",
+    "moment": "^2.30.1",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "sass": "^1.72.0",
+    "screenfull": "^6.0.2",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vue": "^3.4.21",
+    "vue-cron": "^1.0.9",
+    "vue-qr": "^4.0.9",
+    "vue-router": "^4.3.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@cesium/engine": "^14.0.0",
+    "@cesium/widgets": "^10.2.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "cesium": "^1.126.0",
+    "less": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6",
+    "vite-plugin-cesium": "^1.2.23",
+    "vue-tsc": "^1.8.27"
+  }
 }
